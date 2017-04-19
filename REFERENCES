@@ -1,0 +1,8 @@
+1. http://www.linuxjournal.com/article/6100
+2. http://www.linfo.org/system_call_number.html
+3. http://man7.org/linux/man-pages/
+4. https://github.com/bnoordhuis/strace/blob/e837b14a5306d92ff37a916427c7bbb0c52ec009/linux/i386/syscallent.h
+
+5. http://stackoverflow.com/questions/3501338/c-read-file-line-by-line
+6. http://www.linuxjournal.com/article/6210
+7. http://stackoverflow.com/questions/5265702/how-to-get-full-path-of-a-file

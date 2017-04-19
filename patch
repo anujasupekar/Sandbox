@@ -1,0 +1,62 @@
+53d52
+< char *program_name;
+58c57
+<     exit(EXIT_SUCCESS);
+---
+>     exit(EXIT_FAILURE);
+122c121
+<                 {printf("Terminating %s: unauthorized access of %s\n", program_name, val);
+---
+>                 {printf("Process terminated!!! \n");
+161c160
+<                     {printf("Terminating %s: unauthorized access of %s\n", program_name, ptr);
+---
+>                     {printf("Process terminated!!! \n");
+178c177
+<                 {   char * final_permission = permission;
+---
+>                 {char * final_permission = permission;
+180c179
+<                     { printf("Terminating %s: unauthorized access of %s\n", program_name, ptr);
+---
+>                     { printf("Process terminated!!! \n");
+183,184c182
+<                     { 
+<                     printf("Terminating %s: unauthorized access of %s\n", program_name, ptr);
+---
+>                     { printf("Process terminated!!! \n");
+218c216
+<                 {   printf("Terminating %s: unauthorized access of %s\n", program_name, ptr);
+---
+>                 {   printf("Process terminated!!! \n");
+255c253
+<                 {   printf("Terminating %s: unauthorized access of %s\n", program_name, ptr);
+---
+>                 {   printf("Process terminated!!! \n");
+291c289
+<                 {printf("Terminating %s: unauthorized access of %s\n", program_name, ptr);
+---
+>                 {printf("Process terminated!!!");
+367c365
+<                 {printf("Terminating %s: unauthorized access of %s\n", program_name, ptr);
+---
+>                 {printf("Process terminated!!! \n");
+409c407
+<                 {printf("Terminating %s: unauthorized access of %s\n", program_name, ptr);
+---
+>                 {printf("Process terminated!!! \n");
+446c444
+<                 {printf("Terminating %s: unauthorized access of %s\n", program_name, ptr);
+---
+>                 {printf("Process terminated!!! \n");
+482c480
+<                 {printf("Terminating %s: unauthorized access of %s\n", program_name, ptr);
+---
+>                 {printf("Process terminated!!! \n");
+528d525
+<     program_name = argv[0];
+565c562
+< }
+---
+> }
+\ No newline at end of file

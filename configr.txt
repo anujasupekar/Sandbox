@@ -1,0 +1,1 @@
+100 /home/asupeka/oshw1/sample.txt

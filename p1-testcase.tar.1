@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  	<head>
+    	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>NC State Shibboleth Login</title>
+    	<link rel="stylesheet" type="text/css" href="https://cdn.ncsu.edu/brand-assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    	<link rel="stylesheet" type="text/css" href="/idp/css/bs-tweaks.css">
+        <link rel="shortcut icon" href="/idp/images/favicon.ico" />
+  	</head>
+  	<body>
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <div class="bs-header">
+      <div class="container">
+       <header role="banner">
+        <div class="col-sm-4">
+          <img src="/idp/images/ncsu-logo-black.png" alt="NC State Shibboleth Login">
+        </div>
+       </header>
+      </div>
+    </div>
+
+    <div class="container" id="content">
+     <main role="main">
+      <div class="col-sm-4">
+        <h1 class="sr-only">NC State Shibboleth Login</h1>
+
+                
+
+        <div class="alert brand-reynolds bordered" role="form" aria-label="login form">
+
+            <form name="loginform" action="/idp/profile/SAML2/Redirect/SSO?execution=e1s1" 
+                  method="post" class="form-signin" role="form">
+
+                          <h3 class="form-signin-heading">Enter your Unity ID 
+                  and Password</h3>
+
+                <label for="username">Unity ID</label>
+                <input class="form-control" 
+                    id="username" name="j_username" type="text" 
+                    placeholder="Unity ID"
+                	value=""
+                    required>
+
+                <label for="password">Password</label>
+                <input class="form-control" 
+                    id="password" name="j_password" type="password" 
+                    value="" placeholder="Password" required>
+
+                                                                    
+                                                        
+                            <button id="formSubmit" class="btn btn-gray60 btn-block" 
+                    type="submit" name="_eventId_proceed"
+                    onClick="this.childNodes[0].nodeValue='Logging in, please wait...'"
+                    >Login</button>
+            
+                        </form>
+
+        </div>
+      </div>
+     </main>
+     <aside role="complementary">
+      <div class="col-sm-8">
+
+                                        
+		
+        
+        
+        <div class="alert brand-gray25 bordered">
+           <p>
+             <b>ATTENTION</b>: Welcome to the new look of the Shibboleth
+             login service!  For more information about this change,
+             please review the 
+             <a href="https://sysnews.ncsu.edu/news/56e97649">SysNews
+             announcement</a>.
+           </p>
+
+           <h4 style="margin-top: 14pt;">What is Shibboleth?</h4>
+           <p>
+             The Shibboleth System is a standards based, open source
+             software package for web single sign-on across or within
+             organizational boundaries. More information can be found on
+             our 
+             <a href="https://oit.ncsu.edu/campus-it/identity-management/shibboleth/" target="oit">Shibboleth at NC State page</a>.
+           </p>
+
+           <h4 style="margin-top: 14pt;">Do Not Bookmark This Page</h4>
+           <p>
+             Shibboleth works by authenticating your Unity ID and
+             password, and then redirecting you back to the service you
+             came from. If you bookmark this page, Shibboleth won't know
+             which service to send you back to, and will display an
+             error.
+           </p>
+
+           <h4 style="margin-top: 14pt;">Keep Your Account Secure</h4>
+           <p>
+             To protect your privacy, <b>completely exit your web browser</b>
+             when finished.
+           </p>
+           <p>
+             Remember that NC State personnel will NEVER ask you to
+             reveal personal information, such as passwords or other
+             restricted data, by email, phone, text, or other means of
+             communication. If you receive such a message or have replied
+             to one, please report it to
+             <a href="mailto:help@ncsu.edu">help@ncsu.edu</a>.
+           </p>
+        </div>
+
+        <h3>Need help?</h3>
+        <ul>
+        <li>
+          Forgot your <a href="https://oit.ncsu.edu/my-it/unity-credentials/">Unity ID or Password?</a>
+        </li>
+        <!-- For OIM Later...
+        <li>
+          Need to <a href="#">Reset your password?</a>
+        </li>
+        -->
+        <li>
+          For help with password resets or login issues, contact the
+          NC State Help Desk at 919-515-HELP (4357) or
+          <a href="mailto:help@ncsu.edu">help@ncsu.edu</a>.
+        </li>
+        </ul>
+
+
+      </div>
+     </aside>
+    </div>
+
+      <footer role="contentinfo">
+      <div class="group page-footer">
+        <div class="col-sm-9">
+          <p class="footer-text"><a href="https://oit.ncsu.edu/campus-it/identity-management/shibboleth/">Shibboleth</a> service is provided by the <a href="https://oit.ncsu.edu/">Office of Information Technology</a> at <a href="https://www.ncsu.edu/">NC State University</a>.</p>
+        </div>
+        <div class="col-sm-3">
+                  </div>
+      </div>
+      </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below) -->
+    <script src="https://cdn.ncsu.edu/brand-assets/bootstrap/js/bootstrap.min.js"></script>
+    
+ 	</body>
+</html>
